@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'blogs/index'
-
-  root 'blogs#index'
-  #root 'blogs#test'
+  root 'webpages#index'
+  #root 'blogs#index'
 end
